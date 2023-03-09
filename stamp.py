@@ -91,7 +91,7 @@ class InitializeOperator(bpy.types.Operator):
         # Enable the use of text stamping and set the font size
         scene.render.use_stamp_note = True
         scene.render.use_stamp = True
-        scene.render.stamp_font_size = 36
+        scene.render.stamp_font_size = 24
         return {'FINISHED'}
 
 
